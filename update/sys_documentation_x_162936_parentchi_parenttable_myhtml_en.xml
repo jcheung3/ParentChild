@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="myhtml" label="MyHtml" language="en" table="x_162936_parentchi_parenttable">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>myhtml</element>
+            <help/>
+            <hint/>
+            <label>MyHtml</label>
+            <language>en</language>
+            <name>x_162936_parentchi_parenttable</name>
+            <plural>MyHtmls</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kmeier1</sys_created_by>
+            <sys_created_on>2017-11-14 18:36:51</sys_created_on>
+            <sys_id>fe8c7cbf4fd6070035687bb28110c761</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>MyHtml</sys_name>
+            <sys_package display_value="ParentChild" source="x_162936_parentchi">fe3c648d4f02030035687bb28110c75f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ParentChild">fe3c648d4f02030035687bb28110c75f</sys_scope>
+            <sys_update_name>sys_documentation_x_162936_parentchi_parenttable_myhtml_en</sys_update_name>
+            <sys_updated_by>kmeier1</sys_updated_by>
+            <sys_updated_on>2017-11-14 18:36:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

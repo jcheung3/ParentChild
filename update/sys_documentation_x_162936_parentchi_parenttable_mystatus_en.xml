@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="mystatus" label="MyStatus" language="en" table="x_162936_parentchi_parenttable">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>mystatus</element>
+            <help/>
+            <hint/>
+            <label>MyStatus</label>
+            <language>en</language>
+            <name>x_162936_parentchi_parenttable</name>
+            <plural>MyStatus</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-25 16:51:36</sys_created_on>
+            <sys_id>caa42d914f4a030035687bb28110c7c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>MyStatus</sys_name>
+            <sys_package display_value="ParentChild" source="x_162936_parentchi">fe3c648d4f02030035687bb28110c75f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ParentChild">fe3c648d4f02030035687bb28110c75f</sys_scope>
+            <sys_update_name>sys_documentation_x_162936_parentchi_parenttable_mystatus_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-25 16:51:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

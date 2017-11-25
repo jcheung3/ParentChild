@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="ParentTask" max_length="40" name="x_162936_parentchi_parenttask" sizeclass="1" type="collection">
+        <element label="ParentParent" max_length="32" name="parentparent" reference="x_162936_parentchi_parenttable" type="reference"/>
+    </element>
+</database>

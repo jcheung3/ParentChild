@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ChildTable" max_length="40" name="x_162936_parentchi_childtable" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="another choice" max_length="40" name="another_choice" type="string">
+            <choice>
+                <element label="q" sequence="0" value="q"/>
+                <element label="w" sequence="1" value="w"/>
+                <element label="p" sequence="2" value="p"/>
+            </choice>
+        </element>
+        <element label="ChildData1" max_length="255" name="childdata1" type="string"/>
+        <element label="how many" max_length="40" name="how_many" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parent reference" max_length="32" name="parent_reference" reference="x_162936_parentchi_parenttable" type="reference"/>
+        <index name="index">
+            <element name="parent_reference"/>
+        </index>
+    </element>
+</database>

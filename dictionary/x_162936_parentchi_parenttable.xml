@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ParentTable" max_length="40" name="x_162936_parentchi_parenttable" type="collection">
+        <element label="datafield1" max_length="255" name="datafield1" type="string"/>
+        <element dependent="mytable" dependent_on_field="mytable" label="MyHtml" max_length="8000" name="myhtml" type="html_script" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="MyStatus" max_length="40" name="mystatus" type="string">
+            <choice>
+                <element label="Giant" sequence="0" value="gi"/>
+                <element label="Trek" sequence="1" value="tk"/>
+                <element label="Devinci" sequence="2" value="dv"/>
+            </choice>
+        </element>
+        <element label="MyTable" max_length="80" name="mytable" type="table_name"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
